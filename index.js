@@ -27,6 +27,11 @@ app.post('/registro', (req, res) => {
  });
 });
 
+app.get('/api/food', (req, res) => {
+
+    res.json({
+        message: 'api de comida'});
+});
 
 
 
