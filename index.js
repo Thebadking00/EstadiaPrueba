@@ -22,8 +22,7 @@ app.post('/login' , (req, res) =>{
 });
 
 app.post('/registro', (req, res) => {
- //   res.send('recibiendo datos');
- res.json({
+     res.json({
     message: 'recibiendo datos'
  });
 });
