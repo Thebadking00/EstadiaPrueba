@@ -33,6 +33,11 @@ app.get('/api/food', (req, res) => {
         message: 'api de comida'});
 });
 
+app.get('/api/users', (req, res) => {
+
+    res.json({
+        message: 'Api de usuarios'});
+});
 
 
 app.listen(3000, () => {
